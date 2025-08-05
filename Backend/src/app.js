@@ -2,7 +2,6 @@ import express from "express";
 import aiRoutes from "./routes/ai.routes.js"; 
 import cors from "cors"
 
-
 const app = express();
 const cors = require('cors');
 app.use(cors({
