@@ -3,6 +3,9 @@ import aiRoutes from "./routes/ai.routes.js";
 import cors from "cors"
 
 const app = express();
+import dotenv from "dotenv";
+
+dotenv.config();
 
 app.use(cors({
   origin: process.env.FRONTEND_URL,
