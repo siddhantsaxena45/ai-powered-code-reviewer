@@ -114,6 +114,9 @@ main .right {
   color: var(--fg-color);
   transition: background 0.3s, color 0.3s;
 }
+main .right .pre {
+  height: 20vh;
+}
 /* Toggle Theme Button */
 .toggle-theme {
   position: fixed;
