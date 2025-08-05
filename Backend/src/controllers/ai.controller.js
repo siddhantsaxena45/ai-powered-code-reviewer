@@ -1,4 +1,4 @@
-import { generateContent } from "../services/ai.service.js"; // ✅ include .js
+import { generateContent } from "../services/ai.service.js"; 
 
 export const getReview = async (req, res) => {
   const prompt = req.body.code;
