@@ -114,7 +114,7 @@ main .right {
   color: var(--fg-color);
   transition: background 0.3s, color 0.3s;
 }
-main .right .pre {
+main .right .code {
  height: 10vh;
 }
 /* Toggle Theme Button */
